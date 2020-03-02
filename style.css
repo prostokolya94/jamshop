@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: darkgrey;
+  
+}
+.container {
+  width: 375px;
+  height: 708px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.product {
+  width: 262px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:29px auto 30px  auto;
+  }
+
+.productName {
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 32px;
+margin-bottom: 20px;
+}
+.prodBrif {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 10px;
+
+}
+.img {
+  
+}
+.carousel {
+  height: 306px;
+  width: 100%;
+  
+}
+
+.productimg {
+margin: 0 auto;
+width: 168.34px;
+height: 335px;
+}
+
+.addproduct {
+  margin: 30px auto 36px;
+  width: 217px;
+  height: 53px;
+  background-color: #F6F6F8;
+  border-radius: 33px;
+  display: flex ;
+
+}
+.addproduct .helptext,
+.addproduct .addbutton{
+  font-size: 13px;
+  font-family: Roboto Condensed;
+  color: #979AA1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.addproduct .addbutton {
+  color: black;
+  background-image: url("./img/Vector.svg");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
