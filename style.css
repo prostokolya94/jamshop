@@ -23,19 +23,19 @@ body {
   }
 
 .productName {
-font-family: Roboto Condensed;
-font-style: normal;
-font-weight: normal;
-font-size: 35px;
-line-height: 32px;
-margin-bottom: 20px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 32px;
+  margin-bottom: 20px;
 }
 .prodBrif {
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 11px;
-line-height: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 10px;
 
 }
 .img {
@@ -48,9 +48,9 @@ line-height: 10px;
 }
 
 .productimg {
-margin: 0 auto;
-width: 168.34px;
-height: 335px;
+  margin: 0 auto;
+  width: 168.34px;
+  height: 335px;
 }
 
 .addproduct {
@@ -102,13 +102,191 @@ height: 335px;
 }
 
 .smalltext {
-width: 168px;
-height: 10px;
-font-family: Roboto Condensed;
-font-size: 10px;
-line-height: 9px;
-margin: 14px auto 22px;
+  width: 168px;
+  height: 10px;
+  font-family: Roboto Condensed;
+  font-size: 10px;
+  line-height: 9px;
+  margin: 14px auto 22px;
 }
 .backbutton{
   position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
 }
+
+.backbutton:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);  
+
+}
+
+/*cartscreen*/
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 28px;
+  width: 293px;
+  margin: 21px 0 0 51px;
+  font-family: Roboto Condensed;
+}
+.order {
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.quantity {
+  font-size: 13px;
+  line-height: 12px;
+  width: 100px;
+  height: 28px;
+  border: 0.5px solid #596273;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item , .item-next {
+  width: 351px;
+  height: 77px;
+  margin: 27px 0 0 12px;
+  background: #F6F6F8;
+  border-radius: 11px;
+  display: flex;
+  font-family: Roboto Condensed;
+}
+
+.item-next {
+  margin-top: 8px ;
+}
+
+.item-img {
+  width: 34.4px;
+  height: 68.46px;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+.small-img {
+  margin: 0 auto;
+}
+.item-name {
+  margin: 17px 0 0 11px;
+  width: 95px;
+  height: 31px;
+}
+
+.small-name {
+  width: 95px;
+  height: 14px;
+  font-size: 15px;
+  line-height: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.small-quantity {
+  width: 88px;
+  height: 11px;
+  margin: 6px 0 0 0  ;
+  font-size: 11px;
+  line-height: 10px;
+  text-align: left;
+}
+.item-quantity , .prices {
+  width: 69px;
+  height: 30px;
+  margin: 20px 0 0 35px;
+  border: 0.5px solid #818A99;
+  box-sizing: border-box;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prices {
+  margin-left: 9px;
+}
+
+.del-button {
+  width: 17px;
+  height: 17px;
+  margin: -6px 0 60px 2px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.del-button:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.total-amount {
+  width: 351px;
+  height: 71px;
+  border: 1px solid #BBC4CE;
+  box-sizing: border-box;
+  border-radius: 11px;
+  margin: 22px 0 0 12px;
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto Condensed;
+}
+.total-text {
+  height: 36px;
+  width: 121px;
+  margin: 17px 0 0 19px;
+}
+.text {
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.little-text{
+  font-style: italic;
+  font-size: 11px;
+  line-height: 10px;
+  color: #596273;
+  margin-top: 6px ;
+}
+
+.total-price {
+  width: 62px;
+  height: 19px;
+  margin: 26px 18px 0 131px;
+  font-size: 20px;
+  line-height: 19px;
+}
+
+.processed {
+  width: 219px;
+  height: 49px;
+  background-color:#475062;
+  border-radius: 8px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px auto 0; 
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 13px;
+  font-family: Roboto, sans-serif;
+  }
+
