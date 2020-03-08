@@ -22,7 +22,7 @@ body {
   margin:29px auto 30px  auto;
   }
 
-.productName {
+.product-name {
   font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
@@ -30,7 +30,7 @@ body {
   line-height: 32px;
   margin-bottom: 20px;
 }
-.prodBrif {
+.prod-brif {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -47,13 +47,13 @@ body {
   
 }
 
-.productimg {
+.product-img {
   margin: 0 auto;
   width: 168.34px;
   height: 335px;
 }
 
-.addproduct {
+.add-product {
   margin: 30px auto 36px;
   width: 217px;
   height: 53px;
@@ -62,8 +62,8 @@ body {
   display: flex ;
 
 }
-.addproduct .helptext,
-.addproduct .addbutton{
+.add-product .help-text,
+.add-product .add-button{
   font-size: 13px;
   font-family: Roboto Condensed;
   color: #979AA1;
@@ -72,7 +72,7 @@ body {
   justify-content: center;
   width: 50%;
 }
-.addproduct .addbutton {
+.add-product .add-button {
   color: black;
   background-image: url("./img/Vector.svg");
   background-repeat: no-repeat;
@@ -89,7 +89,7 @@ body {
   margin: 0 auto;
 }
 
-.buybutton{
+.buy-button{
   width: 219px;
   height: 49px;
   background-color: #FF416E;
@@ -101,7 +101,7 @@ body {
   margin: 32px auto 0; 
 }
 
-.smalltext {
+.small-text {
   width: 168px;
   height: 10px;
   font-family: Roboto Condensed;
@@ -109,7 +109,7 @@ body {
   line-height: 9px;
   margin: 14px auto 22px;
 }
-.backbutton{
+.back-button{
   position: absolute;
   display: inline-block;
   vertical-align: middle;
@@ -122,7 +122,7 @@ body {
   transition-property: transform;
 }
 
-.backbutton:hover{
+.back-button:hover{
   -webkit-transform: scale(1.1);
   transform: scale(1.1);  
 
