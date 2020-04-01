@@ -76,7 +76,10 @@ body {
 
 .carousel {
   height: 306px;
-  width: 100%;
+  width: 606px;
+  display: flex;
+  margin-left: -142.5px;
+  position: relative;
 }
 
 .product-img {
@@ -185,6 +188,20 @@ body {
 
 .back-button:hover {
   transform: scale(1.1);  
+}
+
+.buttons {
+  margin-left: 40%;
+}
+.arrow-prev, .arrow-next {
+  border-radius: 5px;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-duration: 0.1s;
+  transition-property: transform;
+}
+.arrow-prev:hover, .arrow-next:hover {
+  transform: scale(1.09);
 }
 
 /*cartscreen*/
