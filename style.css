@@ -120,7 +120,7 @@ body {
 .check-button {
   position: absolute;
   margin: -6px -6px;
-  display: inline-block;
+  display: none;
   left: 95%;
   top: 18px;
   transform: perspective(1px) translateZ(0);
@@ -179,6 +179,10 @@ body {
   margin: 32px auto 0;
   font-family: 'Roboto-Regular';
   font-size: 14px;
+}
+.clear {
+  display: block;
+  margin-left: 40%;
 }
 
 .inner {
