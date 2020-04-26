@@ -65,8 +65,7 @@ quantity.innerHTML = '0 Bottle'
 /*добавление в корзину*/
 /*
 
-  
-let li2 = carousel.querySelector('.twos')
+  let li2 = carousel.querySelector('.twos')
 li2.onclick = function () {
   cartArray2.push(li2.id)
   let sum2 = cartArray1.length + cartArray2.length + cartArray3.length + cartArray4.length;
